@@ -7,9 +7,10 @@ SQL là ngôn ngữ truy vấn được thiết kế để quản lý dữ liệ
 
 Các ứng dụng kết hợp dữ liệu đầu vào của người dùng vào các truy vấn SQL để lấy dữ liệu cần thiết từ cơ sở dữ liệu phụ trợ của chúng. Ở mức đơn giản nhất, một câu lệnh SELECT để kiểm tra thông tin đăng nhập của người dùng so với bảng users có thể là:
 ```SELECT id FROM users WHERE username='user-input-here' AND password='user-input-here'```
-
+<p align="center">
 <img width="801" alt="Ảnh chụp Màn hình 2025-03-31 lúc 15 12 58" src="https://github.com/user-attachments/assets/541d0315-bcb1-43a6-be0e-7868d97bb4aa" />
 
+</p>
 Điều này sẽ trả về ID người dùng nếu tên người dùng và mật khẩu được chỉ định kết hợp tồn tại và NULL(kết quả trống) nếu không.
 ## SQLi là gì
 SQL Injection (SQLi) là lỗ hổng bảo mật trong đó kẻ tấn công chèn mã SQL độc hại vào truy vấn cơ sở dữ liệu của ứng dụng thông qua dữ liệu đầu vào của người dùng chưa được kiểm tra (ví dụ: trường biểu mẫu, tham số URL), cho phép thao tác truy vấn trái phép.
@@ -27,7 +28,6 @@ Trong một số máy chủ cơ sở dữ liệu, ta có thể truy cập hệ �
 
 ## Các loại SQLi
 ### In-band SQLi (Classic SQL Injection)
-* ***Error-based SQLi*** dựa vào thông báo lỗi được trả về từ Database Server có chứa thông tin về cấu trúc của cơ sở dữ liệu.
+* **Error-based SQLi** dựa vào thông báo lỗi được trả về từ Database Server có chứa thông tin về cấu trúc của cơ sở dữ liệu.
 ![image](https://github.com/user-attachments/assets/fef6d346-ab24-4ba7-8182-5e908fb6ba82)
-
 Lỗi hiển thị trong ảnh cho thấy ứng dụng đang sử dụng MySQL, vì thông báo lỗi thuộc cú pháp của MySQL. Lỗi xuất hiện do dấu ' dư thừa sau số 15324, cho thấy tham số id không được kiểm soát đúng cách. Điều này chứng tỏ ứng dụng không xử lý đúng đầu vào của người dùng, dẫn đến lỗi cú pháp SQL. Nếu dấu ' có thể gây ra lỗi, đây là dấu hiệu mạnh mẽ cho thấy ứng dụng có thể bị khai thác bằng Error-based SQL Injection, cho phép kẻ tấn công trích xuất thông tin từ cơ sở dữ liệu thông qua thông báo lỗi.
