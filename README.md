@@ -22,9 +22,13 @@ SQL Injection (SQLi) là lỗ hổng bảo mật trong đó kẻ tấn công ch�
 Nhiều ứng dụng web và trang web lưu trữ tất cả dữ liệu trong cơ sở dữ liệu SQL. Trong một số trường hợp, có thể sử dụng lệnh SQL để chạy lệnh hệ điều hành. Do đó, một cuộc tấn công SQL Injection thành công có thể gây ra hậu quả rất nghiêm trọng.
 
 Kẻ tấn công có thể sử dụng SQL Injection để tìm thông tin đăng nhập của người dùng khác trong cơ sở dữ liệu. Sau đó, chúng có thể mạo danh những người dùng này. Người dùng mạo danh có thể là quản trị viên cơ sở dữ liệu với tất cả các đặc quyền cơ sở dữ liệu.
+
 SQL cho phép chọn và xuất dữ liệu từ cơ sở dữ liệu. Lỗ hổng SQL Injection có thể cho phép kẻ tấn công có quyền truy cập hoàn toàn vào tất cả dữ liệu trong máy chủ cơ sở dữ liệu.
+
 SQL cũng cho phép thay đổi dữ liệu trong cơ sở dữ liệu và thêm dữ liệu mới. Ví dụ, trong ứng dụng tài chính, kẻ tấn công có thể sử dụng SQL Injection để thay đổi số dư, hủy giao dịch hoặc chuyển tiền vào tài khoản của họ.
+
 Có thể sử dụng SQL để xóa bản ghi khỏi cơ sở dữ liệu, thậm chí xóa bảng. Ngay cả khi người quản trị thực hiện sao lưu cơ sở dữ liệu, việc xóa dữ liệu có thể ảnh hưởng đến tính khả dụng của ứng dụng cho đến khi cơ sở dữ liệu được khôi phục. Ngoài ra, bản sao lưu có thể không bao gồm dữ liệu gần đây nhất.
+
 Trong một số máy chủ cơ sở dữ liệu, ta có thể truy cập hệ điều hành bằng máy chủ cơ sở dữ liệu. Điều này có thể là cố ý hoặc vô tình. Trong trường hợp như vậy, kẻ tấn công có thể sử dụng SQL Injection làm vectơ ban đầu và sau đó tấn công mạng nội bộ đằng sau tường lửa.
 
 ## Các loại SQLi
