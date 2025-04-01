@@ -9,6 +9,7 @@
 
 **Mục tiêu:** Khai thác dữ liệu từ database ngay cả khi ứng dụng không hiển thị lỗi hoặc kết quả truy vấn trực tiếp.
 
+
 <p align="center">
 <img width="801" alt="Ảnh chụp Màn hình 2025-03-31 lúc 15 12 58" src="https://github.com/user-attachments/assets/14831188-857f-4a87-a818-ac7d4d472d7d" />
 </p>
@@ -16,6 +17,11 @@
 <p align="center">
 <img width="801" alt="Ảnh chụp Màn hình 2025-03-31 lúc 15 12 58" src="https://github.com/user-attachments/assets/3622cd94-32c2-4dce-9767-64097b3835e8" />
 </p>
+
+<p align="center">
+<img width="801" alt="Ảnh chụp Màn hình 2025-03-31 lúc 15 12 58" src="https://github.com/user-attachments/assets/15bb0ede-2c4d-4e1f-be18-b26084cf1a60" />
+</p>
+
 
 
 * **Time-based Blind SQLi** là kĩ thuật tấn công dựa vào việc gửi những câu truy vấn tới cơ sở dữ liệu và buộc cơ sở dữ liệu phải chờ một khoảng thời gian (thường tính bằng giây) trước khi phản hồi.
