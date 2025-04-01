@@ -29,9 +29,9 @@ Giao diện trang web không có phần hiển thị xác thực thành công, c
 <img width="801" alt="Ảnh chụp Màn hình 2025-03-31 lúc 15 12 58" src="https://github.com/user-attachments/assets/15bb0ede-2c4d-4e1f-be18-b26084cf1a60" />
 </p>
 
->Quan sát cột Response Length:
+>Quan sát Response, tại cột Length:
 Khi LENGTH(password) = 20, độ dài phản hồi là 3916, điều này gợi ý rằng điều kiện LENGTH(password) = 20 đúng.
-Khi kiểm tra với các giá trị khác (5, 20, 21...), phản hồi có độ dài khác và không chứa "Welcome back!", chứng tỏ điều kiện sai.
+Khi kiểm tra với các giá trị khác (5, 19, 21...), phản hồi có độ dài khác và không chứa "Welcome back!", chứng tỏ điều kiện sai.
 Kết luận: Mật khẩu của tài khoản administrator có độ dài 20 ký tự.
 
 
