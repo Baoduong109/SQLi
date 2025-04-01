@@ -90,5 +90,5 @@ PostgreSQL:
 </p>
 
 >Khi LENGTH(password) = 20, độ trễ phản đồi là 5 giây, điều này gợi ý rằng điều kiện LENGTH(password) = 20 đúng.
-Khi kiểm tra với các giá trị khác (5, 20, 21...), response phản hồi dường như là ngay lập tức chứng tỏ điều kiện sai.
+Khi kiểm tra với các giá trị khác (5, 10, 21...), response phản hồi dường như là ngay lập tức chứng tỏ điều kiện sai.
 Kết luận: Mật khẩu của tài khoản administrator có độ dài 20 ký tự.
