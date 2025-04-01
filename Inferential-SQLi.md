@@ -77,7 +77,7 @@ PostgreSQL:
 <img width="801" alt="Ảnh chụp Màn hình 2025-03-31 lúc 15 12 58" src="https://github.com/user-attachments/assets/6dcbd57f-fd38-4330-8849-88b5c634e400" />
 </p>
 
->Xác minh rằng ứng dụng phản hồi ngay lập tức mà không có độ trễ. Điều này chứng minh cách bạn có thể kiểm tra một điều kiện boolean duy nhất và suy ra kết quả.
+>Xác minh rằng ứng dụng phản hồi ngay lập tức mà không có độ trễ. Điều này chứng minh có thể kiểm tra một điều kiện boolean duy nhất và suy ra kết quả.
 
 <p align="center">
 <img width="801" alt="Ảnh chụp Màn hình 2025-03-31 lúc 15 12 58" src="https://github.com/user-attachments/assets/00b71f0a-22e1-430a-88d0-5b70e2bce8ce" />
