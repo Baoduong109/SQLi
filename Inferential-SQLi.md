@@ -45,3 +45,9 @@ PostgreSQL:
 **Mong đợi:** Độ trễ 5 giây cho biết đây là Blind SQL Injection
 
 **Mục tiêu:** Phát hiện các lỗ hổng mà không có đầu ra hiển thị.
+
+<p align="center">
+<img width="801" alt="Ảnh chụp Màn hình 2025-03-31 lúc 15 12 58" src="https://github.com/user-attachments/assets/6cb3e73b-6389-49a6-9795-ed7bcbd06d94" />
+</p>
+
+
