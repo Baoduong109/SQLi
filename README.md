@@ -71,7 +71,7 @@ Sử dụng whitelist [A-Za-z0-9] để chặn các kí tự đặc biệt như 
 if (!input.matches("[A-Za-z0-9]+"))
 { throw new IllegalArgumentException("Invalid input"); }   
 ```
-Mục đíc ngăn chặn các kí tự độc hại chèn vào câu truy vấn.
+Mục đích ngăn chặn các kí tự độc hại chèn vào câu truy vấn.
 
 ### 3. Phân quyền:
 
